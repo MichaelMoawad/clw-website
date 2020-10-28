@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import {animateScroll as scroll} from 'react-scroll'
 import {FaBars} from 'react-icons/fa'
 import {IconContext} from 'react-icons/lib'
+import Logo from '../../images/CLW-Logo-w-text.png'
 import { Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks, NavBtn, NavBtnLink} from './NavbarElements'
 
 const Navbar = ({ toggle }) => {
@@ -29,10 +30,10 @@ const Navbar = ({ toggle }) => {
             <Nav scrollNav={scrollNav}>
                 <NavbarContainer>
                     <NavLogo to='/' onClick={toggleHome}> 
-                        dolla
+                        <img src={Logo} alt="Logo" style={{width: "140px"}}/>
                     </NavLogo>
                     <MobileIcon onClick={toggle}>
-                        <FaBars />
+                        <FaBars style={{color: "#EDBE5A"}}/>
                     </MobileIcon>
                     <NavMenu>
                         <NavItem>
@@ -41,19 +42,19 @@ const Navbar = ({ toggle }) => {
                             >About</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to="discover"
+                            <NavLinks to="mentorship"
                             smooth={true} duration={500} spy={true} exact='true' offset={-80}
-                            >Dicover</NavLinks>
+                            >Mentorship</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to="services"
+                            <NavLinks to="profiles"
                             smooth={true} duration={500} spy={true} exact='true' offset={-80}
-                            >Services</NavLinks>
+                            >Profiles</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to="signup"
+                            <NavLinks to="contact"
                             smooth={true} duration={500} spy={true} exact='true' offset={-80}
-                            >Sign Up</NavLinks>
+                            >Contact Us</NavLinks>
                         </NavItem>
                     </NavMenu>
                     <NavBtn>

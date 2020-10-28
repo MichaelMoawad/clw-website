@@ -14,7 +14,7 @@ export const homeObjOne = {
     description: 'Get access to our exclusive app that allows you to send unlimited transactions without getting charged any fees.',
     buttonLabel: 'Get started',
     imgStart: false,
-    img: ImageOne,
+    // img: ImageOne,
     alt: 'Car',
     dark: true,
     primary: true,
@@ -22,7 +22,7 @@ export const homeObjOne = {
 }
 
 export const homeObjTwo = {
-    id: 'discover',
+    id: 'mentorship',
     lightBg: true,
     lightText: false,
     lightTextDesc: false,
@@ -31,7 +31,7 @@ export const homeObjTwo = {
     description: 'Get access to our exclusive app that allows you to send unlimited transactions without getting charged any fees.',
     buttonLabel: 'Learn More',
     imgStart: true,
-    img: ImageTwo,
+    // img: ImageTwo,
     alt: 'Piggybank',
     dark: false,
     primary: false,
@@ -39,7 +39,7 @@ export const homeObjTwo = {
 }
 
 export const homeObjThree = {
-    id: 'signup',
+    id: 'contact',
     lightBg: true,
     lightText: false,
     lightTextDesc: false,
@@ -48,7 +48,7 @@ export const homeObjThree = {
     description: 'Get everything set up and ready in under 10 minutes. All you need to do is add your information and you are ready to go.',
     buttonLabel: 'Start Now',
     imgStart: false,
-    img: ImageThree,
+    // img: ImageThree,
     alt: 'Paper',
     dark: false,
     primary: false,

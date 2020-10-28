@@ -7,7 +7,8 @@ export const HeroContainer = styled.div`
     justify-content: center;
     align-items: center;
     padding: 0 30px;
-    height: 800px;
+    /* height: 1000px; */
+    height: 100vh;
     position: relative;
     z-index: 1;
 
@@ -54,9 +55,12 @@ export const HeroContent = styled.div`
 `
 
 export const HeroH1 = styled.h1`
-    color: #fff;
-    font-size: 48px;
+    color: #EDBE5A;
+    font-size: 62px;
     text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    padding: 15px;
 
     @media screen and (max-width: 768px) {
         font-size: 40px;
