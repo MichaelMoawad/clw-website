@@ -4,7 +4,7 @@ import {Button} from '../ButtonElements'
 import {InfoContainer, InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, BtnWrap, ImgWrap, Img} from './InfoElements'
 
 
-const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headline, darkText, description, buttonLabel, img, alt, primary, dark, dark2}) => {
+const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headline, darkText, description1, description2, description3, buttonLabel, img, alt, primary, dark, dark2}) => {
     return (
         <>
           <InfoContainer lightBg={lightBg} id={id}>
@@ -14,8 +14,10 @@ const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headline, darkT
                         <TextWrapper>
                             <TopLine>{topLine}</TopLine>
                             <Heading lightText={lightText}>{headline}</Heading>
-                            <Subtitle darkText={darkText}>{description}</Subtitle>
-                            <BtnWrap>
+                            <Subtitle darkText={darkText}>{description1}</Subtitle>
+                            <Subtitle darkText={darkText}>{description2}</Subtitle>
+                            <Subtitle darkText={darkText}>{description3}</Subtitle>
+                            {/* <BtnWrap>
                                 <Button to="home"
                                 smooth={true}
                                 duration={500}
@@ -26,7 +28,7 @@ const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headline, darkT
                                 dark={dark ? 1: 0}
                                 dark2={dark2 ? 1 : 0}
                                 >{buttonLabel}</Button>
-                            </BtnWrap>
+                            </BtnWrap> */}
                         </TextWrapper>
                       </Column1>
                       <Column2>

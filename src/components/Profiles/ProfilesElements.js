@@ -2,15 +2,19 @@ import styled from 'styled-components'
 
 export const ProfilesContainer = styled.div`
     height: auto;
-    min-height: 1100px;
+    min-height: 1400px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background: #181C25;
 
+    @media screen and (max-width: 1000px) {
+        min-height: 1800px;
+    }
+
     @media screen and (max-width: 768px) {
-        height: 1100px;
+        height: 1400px;
         min-height: 3000px;
     }
 
@@ -21,7 +25,7 @@ export const ProfilesContainer = styled.div`
 `
 
 export const ProfilesH1 = styled.h1`
-    font-size: 2.5rem;
+    font-size: 48px;
     color: #fff;
     margin-top: 50px;
     margin-bottom: 64px;
@@ -33,21 +37,20 @@ export const ProfilesH1 = styled.h1`
     }
 `
 
-
 export const ProfilesWrapper = styled.div`
     max-width: 1000px;
     margin: 20px auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 400px 400px;
+    grid-template-rows: 420px 420px;
     align-items: center;
     justify-content: center;
     grid-gap: 16px;
-    padding: 0 50px;
+    padding: 0 50px 40px;
 
     @media screen and (max-width: 1000px) {
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 400px 400px 400px;
+        grid-template-rows: 420px 420px 420px;
     }
 
     @media screen and (max-width: 768px) {
@@ -58,6 +61,7 @@ export const ProfilesWrapper = styled.div`
 `
 
 export const ProfilesCard = styled.div`
+    transition: 0.2s;
     position: relative;
     height: 300px;
 `
@@ -73,7 +77,6 @@ export const ProfilesFaceOne = styled.div`
     width: 300px;
     height: 300px;
     transition: 0.5s;
-
 `
 
 export const ProfilesFaceTwo = styled.div`
@@ -107,19 +110,32 @@ export const ProfilesContentOne = styled.div`
 export const ProfilesContentTwo = styled.div`
 `
 
-
 export const ProfilesIcon = styled.img`
+    transition: 0.2s;
+    opacity: 0.7;
     height: 300px;
     max-width: 300px;
     border-radius: 5px;
     margin-bottom: 10px;
+
+    &:hover{
+        transition: 0.2s;
+        opacity: 1;
+        cursor: pointer;
+    }
+`
+
+export const ProfilesHeading = styled.div`
+    display: grid;
+    grid: 25px / 250px 50px;
 `
 
 export const ProfilesH2 = styled.h2`
     color: #fff;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     padding: 0;
-    text-align: center;
+    text-align: left;
+    padding: 0 18px 0;
 `
 
 export const ProfilesExpandBtn = styled.a`
@@ -130,16 +146,39 @@ export const ProfilesExpandBtn = styled.a`
     text-decoration: none;
     text-align: center;
     font-weight: 900;
+    background-color: #384156;
     color: #fff;
     padding-top: 8px;
     padding-bottom: 8px;
+    border-radius: 5px;
+    margin: 15px 15px 15px;
     width: -webkit-fill-available;
 
     &:hover {
         transition: 0.2s;
-        color: #EDBE5A;
+        background-color: #404B63;
         cursor: pointer;
     }
 `
 
+export const SocialIcons = styled.div`
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 20px;
+`
 
+export const SocialIconLink = styled.a`
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 12px;
+    color: #404B63;
+    font-size: 24px;
+    padding: 0 3px 0;
+`
+
+export const BtnWrap = styled.div`
+    display: flex;
+    justify-content: flex-start;
+`

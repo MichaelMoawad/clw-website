@@ -1,4 +1,4 @@
-import ImageOne from "../../images/svg-1.svg"
+import ImageOne from "../../images/CLW-Logo.png"
 import ImageTwo from "../../images/svg-2.svg"
 import ImageThree from "../../images/svg-3.svg"
 import ImageFour from "../../images/svg-4.svg"
@@ -9,12 +9,12 @@ export const homeObjOne = {
     lightBg: false,
     lightText: true,
     lightTextDesc: true,
-    topLine: 'Premium Bank',
-    headline: 'Unlimited Transactions with zero fees',
-    description: 'Get access to our exclusive app that allows you to send unlimited transactions without getting charged any fees.',
+    topLine: 'Coptic Lawyers Worldwide',
+    headline: 'About Us',
+    description1: 'Coptic Lawyers Worldwide (CLW) is a non-profit society uniting the minority group of Copts around the world to share experiences and create opportunities.',
+    description2: 'We aim to create a community to help students in commencing their path in serving the law. Alongside this, we hope to provide resources to all our members and aid them in developing their network through building and interacting with a diverse group of peers located all over the world.',
     buttonLabel: 'Get started',
     imgStart: false,
-    // img: ImageOne,
     alt: 'Car',
     dark: true,
     primary: true,
@@ -26,9 +26,10 @@ export const homeObjTwo = {
     lightBg: true,
     lightText: false,
     lightTextDesc: false,
-    topLine: 'Unlimited Access',
-    headline: 'Unlimited Transactions with zero fees',
-    description: 'Get access to our exclusive app that allows you to send unlimited transactions without getting charged any fees.',
+    topLine: 'Get Involved',
+    headline: 'Mentorship Programme',
+    description1: 'We will match you with a mentor based on your jurisdiction and practice area of interest to allow you to receive guidance and career advice throughout your legal career. You can serve as a mentor, a mentee or both.',
+    description2: 'To get involved with our programme or for more information press here, and we will connect you!',
     buttonLabel: 'Learn More',
     imgStart: true,
     // img: ImageTwo,
@@ -45,7 +46,7 @@ export const homeObjThree = {
     lightTextDesc: false,
     topLine: 'Join our Team',
     headline: 'Creating an account is extremely easy',
-    description: 'Get everything set up and ready in under 10 minutes. All you need to do is add your information and you are ready to go.',
+    description1: 'Get everything set up and ready in under 10 minutes. All you need to do is add your information and you are ready to go.',
     buttonLabel: 'Start Now',
     imgStart: false,
     // img: ImageThree,
@@ -53,4 +54,22 @@ export const homeObjThree = {
     dark: false,
     primary: false,
     darkText: true
+}
+
+export const homeObjProfiles = {
+    id: 'about',
+    lightBg: false,
+    lightText: true,
+    lightTextDesc: true,
+    topLine: 'Premium Bank',
+    headline: 'About Us',
+    description1: 'Coptic Lawyers Worldwide (CLW) is a non-profit society uniting the minority group of Copts around the world to share experiences and create opportunities.',
+    description2: 'We aim to create a community to help students in commencing their path in serving the law. Alongside this, we hope to provide resources to all our members and aid them in developing their network through building and interacting with a diverse group of peers located all over the world.',
+    buttonLabel: 'Get started',
+    imgStart: false,
+    // img: ImageOne,
+    alt: 'Car',
+    dark: true,
+    primary: true,
+    darkText: false
 }

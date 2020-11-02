@@ -41,6 +41,7 @@ export const NavLogo = styled(LinkR)`
     font-weight: bold;
     text-decoration: none;
 `
+
 export const MobileIcon = styled.div`
     display: none;
 
@@ -55,6 +56,7 @@ export const MobileIcon = styled.div`
         color: #fff
     }
 `
+
 export const NavMenu = styled.ul`
     display: flex;
     align-items: center;
@@ -113,3 +115,16 @@ export const NavBtnLink = styled(LinkR)`
         color: #010606
     }
 `
+
+
+
+
+
+
+
+
+
+
+
+
+
