@@ -10,6 +10,9 @@ import Profile3 from '../../images/profile-3.JPG'
 import Profile4 from '../../images/profile-4.JPG'
 import Profile5 from '../../images/profile-5.JPG'
 import Profile6 from '../../images/profile-6.JPG'
+import Profile7 from '../../images/profile-7.JPG'
+import Profile8 from '../../images/profile-8.JPG'
+import Profile9 from '../../images/profile-9.JPG'
 
 import { ProfilesContainer, ProfilesH1, ProfilesWrapper, BtnWrap } from './ProfilesElements'
 import Card from './Card'
@@ -36,7 +39,7 @@ const Profiles = ( {primary, dark, dark2} ) => {
                     ProfileText="Majd Dahdah initially graduated from The University of Manchester with an MEng in Civil Engineering. He then decided to pursue a career in law and has recently completed his Graduate Diploma in Law (GDL) at BPP University in Manchester. He is going into his final year to complete the Legal Practice Course (LPC) at BPP University."
                 />
                 <Card 
-                    ProfileLinkedin="https://www.linkedin.com/in/sandysamyaziz/"
+                    ProfileLinkedin="https://www.linkedin.com/in/marina-choucrallah-b-sc-hons-ll-l-j-d-27b3a9171/"
                     ProfilePic={Profile3}
                     ProfileName="Marina Hani"
                     ProfileText="Marina Hani studied Law at the University of Ottawa and is now a member of the Law Society of Ontario. She completed her articles in a leading Criminal and Child Protection Law firm in Ottawa before moving her practice to Personal Injury and Medical Malpractice."
@@ -54,12 +57,31 @@ const Profiles = ( {primary, dark, dark2} ) => {
                     ProfileText="Marina Iskander is a case handler and Head of Division at the Egyptian Competition Authority."
                 />
                 <Card 
+                    ProfileLinkedin="https://www.linkedin.com/in/caroline-keryakas/"
                     ProfilePic={Profile6}
-                    ProfileName="Bishoy Lastname"
+                    ProfileName="Caroline Keryakas"
+                    ProfileText="Bishoy is a real estate and finance lawyer licensed in Florida and New York who focuses his practice in the areas of complex commercial and residential real estate transactions, including developer, lender, landlord and tenant representation."
+                />     
+                <Card 
+                    ProfileLinkedin="https://www.linkedin.com/in/sandysamyaziz/"
+                    ProfilePic={Profile7}
+                    ProfileName="Jacob Lastname"
+                    ProfileText="Sandy Aziz is a Texas-qualified lawyer and also a member of the Brussels bar (B-list). She works as a knowledge development lawyer and associate for an international law firm in London."
+                />
+                <Card 
+                    ProfileLinkedin="https://www.linkedin.com/in/talyesq/"
+                    ProfilePic={Profile8}
+                    ProfileName="Taly Goody"
+                    ProfileText="Marina Iskander is a case handler and Head of Division at the Egyptian Competition Authority."
+                />
+                <Card 
+                    ProfileLinkedin="https://www.linkedin.com/in/dmostokly12345/"
+                    ProfilePic={Profile9}
+                    ProfileName="David Mostokly"
                     ProfileText="Bishoy is a real estate and finance lawyer licensed in Florida and New York who focuses his practice in the areas of complex commercial and residential real estate transactions, including developer, lender, landlord and tenant representation."
                 />     
             </ProfilesWrapper>
-            <BtnWrap>
+            {/* <BtnWrap>
                 <Button to="home"
                     smooth={true}
                     duration={500}
@@ -71,7 +93,7 @@ const Profiles = ( {primary, dark, dark2} ) => {
                     dark2={dark2 ? 1 : 0}
                     >Show More
                 </Button>
-            </BtnWrap>
+            </BtnWrap> */}
         </ProfilesContainer>
     )
 }

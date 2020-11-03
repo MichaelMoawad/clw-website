@@ -15,6 +15,7 @@ export const homeObjOne = {
     description2: 'We aim to create a community to help students in commencing their path in serving the law. Alongside this, we hope to provide resources to all our members and aid them in developing their network through building and interacting with a diverse group of peers located all over the world.',
     buttonLabel: 'Get started',
     imgStart: false,
+    // img: ImageOne,
     alt: 'Car',
     dark: true,
     primary: true,
