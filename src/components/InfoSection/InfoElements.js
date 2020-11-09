@@ -12,13 +12,20 @@ export const InfoContainer = styled.div`
 export const InfoWrapper = styled.div`
     display: grid;
     z-index: 1;
-    height: 1000px;
+    height: 1045px;
     width: 100%;
     max-width: 1100px;
     margin-right: auto;
     margin-left: auto;
     padding: 0 24px;
     justify-content: center;
+
+    @media screen and (max-width: 768px){
+        height: 1280px;
+    }
+    @media screen and (max-width: 420px){
+        height: 1145px;
+    }
 `
 
 export const InfoRow = styled.div`
@@ -99,10 +106,13 @@ export const Img = styled.img`
 // About Us Section
 
 export const StatsContainer = styled.div`
-    display: flex;
+    /* display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 20px 0;
+    padding: 0 20px 0; */
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 280px 280px 280px;
 `
 
 export const StatsWrapper = styled.div`

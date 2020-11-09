@@ -23,11 +23,10 @@ const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headline, darkT
                       </Column1>
                       <Column2>
                         <ImgWrap>
-                            {/* <Img src={img} alt={alt} style={{width: "600px", height: "500px"}}/> */}
+                            {/* <Img src={img} alt={alt} style={{width: "700px"}}/> */}
+                            <Img src={img} alt={alt} />
                         </ImgWrap>
-                      </Column2>
-                  </InfoRow>
-                  <StatsContainer>
+                  {/* <StatsContainer>
                       <StatsWrapper>
                           <StatsImg src={StatsImg1} alt={alt} style={{width: "150px", height: "150px"}}/>
                           <StatsSubtitle>2,500 followers since launching in June 2020</StatsSubtitle>
@@ -40,7 +39,9 @@ const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headline, darkT
                       <StatsImg src={StatsImg3} alt={alt} style={{width: "150px", height: "150px"}}/>
                           <StatsSubtitle>Network in over 30 specialisms</StatsSubtitle>
                       </StatsWrapper>
-                  </StatsContainer>
+                  </StatsContainer> */}
+                      </Column2>
+                  </InfoRow>
               </InfoWrapper>
             </InfoContainer>  
         </>
