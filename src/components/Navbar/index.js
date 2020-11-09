@@ -42,6 +42,11 @@ const Navbar = ({ toggle }) => {
                             >About</NavLinks>
                         </NavItem>
                         <NavItem>
+                            <NavLinks to="copticchurch"
+                            smooth={true} duration={500} spy={true} exact='true' offset={-80}
+                            >Coptic Church</NavLinks>
+                        </NavItem>
+                        <NavItem>
                             <NavLinks to="mentorship"
                             smooth={true} duration={500} spy={true} exact='true' offset={-80}
                             >Mentorship</NavLinks>
@@ -57,9 +62,9 @@ const Navbar = ({ toggle }) => {
                             >Contact Us</NavLinks>
                         </NavItem>
                     </NavMenu>
-                    <NavBtn>
+                    {/* <NavBtn>
                         <NavBtnLink to="/signin">Sign In</NavBtnLink>
-                    </NavBtn>
+                    </NavBtn> */}
                 </NavbarContainer>
             </Nav>
         </IconContext.Provider>

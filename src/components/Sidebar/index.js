@@ -22,9 +22,9 @@ const Sidebar = ({ isOpen, toggle}) => {
                         Sign Up
                     </SidebarLink>
                 </SidebarMenu>
-                <SideBtnWrap>
+                {/* <SideBtnWrap>
                     <SidebarRoute to="/signin">Sign In</SidebarRoute>
-                </SideBtnWrap>
+                </SideBtnWrap> */}
             </SidebarWrapper>
         </SidebarContainer>
     )

@@ -1,10 +1,11 @@
-import ImageOne from "../../images/about.png"
-import ImageTwo from "../../images/mentorship.svg"
-import ImageThree from "../../images/account.svg"
+import aboutImage from "../../images/about.png"
+import churchImage from "../../images/cross.png"
+import mentorshipImage from "../../images/mentorship.svg"
+import contactImage from "../../images/account.svg"
 import ImageFour from "../../images/svg-4.svg"
 
 
-export const homeObjOne = {
+export const aboutObj = {
     id: 'about',
     lightBg: false,
     lightText: true,
@@ -15,52 +16,52 @@ export const homeObjOne = {
     description2: 'We aim to create a community to help students in commencing their path in serving the law. Alongside this, we hope to provide resources to all our members and aid them in developing their network through building and interacting with a diverse group of peers located all over the world.',
     buttonLabel: 'Get started',
     imgStart: false,
-    img: ImageOne,
+    img: aboutImage,
     alt: 'about',
     dark: true,
     primary: true,
     darkText: false
 }
 
-export const homeObjTwo = {
-    id: 'mentorship',
+export const churchObj = {
+    id: 'copticchurch',
     lightBg: true,
     lightText: false,
     lightTextDesc: false,
+    topLine: 'Coptic Orthodox Christianity',
+    headline: 'About the Church',
+    description1: 'What does Coptic mean? It comes from the Greek word aegytpos, which was used to describe the people of Egypt. For 1500 years it has been the word used to describe the Christian community in Egypt. Now, it represents the ancient Christian Church of Egypt which has preserved the same ancient faith, and is now found in almost every country around the world.',
+    description2: 'It is not a closed community. Many Western people have chosen to become Orthodox Christians among its numbers. But its spiritual tradition, history, worship and prayers have all been formed in 2000 years of Christian experience in Egypt, often at great cost and in the face of violence.',
+    description3: 'To be Coptic is to be connected to this community in one way or another, and to be part of its continuing life and service in the modern world.',
+    buttonLabel: 'Learn More',
+    imgStart: true,
+    img: churchImage,
+    alt: 'copticchurch',
+    dark: false,
+    primary: false,
+    darkText: true
+}
+
+export const mentorshipObj = {
+    id: 'mentorship',
+    lightBg: false,
+    lightText: true,
+    lightTextDesc: true,
     topLine: 'Get Involved',
     headline: 'Mentorship Programme',
     description1: 'We will match you with a mentor based on your jurisdiction and practice area of interest to allow you to receive guidance and career advice throughout your legal career. You can serve as a mentor, a mentee or both.',
     description2: 'To get involved with our programme or for more information press here, and we will connect you!',
-    buttonLabel: 'Learn More',
-    imgStart: true,
-    // issue with size and responsiveness
-    img: ImageTwo,
-    alt: 'Piggybank',
-    dark: false,
-    primary: false,
-    darkText: true
-}
-
-export const homeObjThree = {
-    id: 'contact',
-    lightBg: true,
-    lightText: false,
-    lightTextDesc: false,
-    topLine: 'Join our Team',
-    headline: 'Creating an account is extremely easy',
-    description1: 'Get everything set up and ready in under 10 minutes. All you need to do is add your information and you are ready to go.',
-    buttonLabel: 'Start Now',
+    buttonLabel: 'Register Here',
     imgStart: false,
-    // issue with size and responsiveness
-    img: ImageThree,
-    alt: 'Paper',
-    dark: false,
-    primary: false,
-    darkText: true
+    img: mentorshipImage,
+    alt: 'mentorship',
+    dark: true,
+    primary: true,
+    darkText: false
 }
 
-export const homeObjProfiles = {
-    id: 'about',
+export const profilesObj = {
+    id: 'profile',
     lightBg: false,
     lightText: true,
     lightTextDesc: true,
@@ -70,8 +71,26 @@ export const homeObjProfiles = {
     description2: 'We aim to create a community to help students in commencing their path in serving the law. Alongside this, we hope to provide resources to all our members and aid them in developing their network through building and interacting with a diverse group of peers located all over the world.',
     buttonLabel: 'Get started',
     imgStart: false,
-    // img: ImageOne,
+    // img: aboutImage,
     alt: 'Car',
+    dark: true,
+    primary: true,
+    darkText: false
+}
+
+export const contactObj = {
+    id: 'contact',
+    lightBg: false,
+    lightText: true,
+    lightTextDesc: true,
+    topLine: 'Join our Team',
+    headline: 'Creating an account is extremely easy',
+    description1: 'Get everything set up and ready in under 10 minutes. All you need to do is add your information and you are ready to go.',
+    buttonLabel: 'Start Now',
+    imgStart: false,
+    // issue with size and responsiveness
+    img: contactImage,
+    alt: 'Paper',
     dark: true,
     primary: true,
     darkText: false

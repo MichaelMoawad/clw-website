@@ -7,7 +7,9 @@ export const ProfilesContainer = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: #181C25;
+    /* background: #181C25; */
+    background: #EAECEC;
+    /* background: #EDBE5A; */
 
     @media screen and (max-width: 1000px) {
         min-height: 2200px;
@@ -26,7 +28,8 @@ export const ProfilesContainer = styled.div`
 
 export const ProfilesH1 = styled.h1`
     font-size: 48px;
-    color: #fff;
+    /* color: #fff; */
+    color: #010606;
     margin-top: 50px;
     margin-bottom: 64px;
 
@@ -67,7 +70,9 @@ export const ProfilesCard = styled.div`
 
 export const ProfilesFaceOne = styled.div`
     position: relative;
-    background: #282F3E;
+    /* background: #282F3E; */
+    /* background: #D3D4D4; */
+    background: #F5DBA3;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -101,7 +106,9 @@ export const ProfilesP = styled.p`
 `
 
 export const ProfilesContentOne = styled.div`
-    background-color: #282F3E;
+    /* background-color: #282F3E; */
+    background-color: #D3D4D4;
+    /* background-color: #EDBE5A; */
     border-radius: 5px;
 `
 
@@ -110,7 +117,7 @@ export const ProfilesContentTwo = styled.div`
 
 export const ProfilesIcon = styled.img`
     transition: 0.2s;
-    opacity: 0.7;
+    opacity: 0.9;
     height: 300px;
     max-width: 300px;
     border-radius: 5px;
@@ -129,7 +136,9 @@ export const ProfilesHeading = styled.div`
 `
 
 export const ProfilesH2 = styled.h2`
-    color: #fff;
+    /* color: #fff; */
+    /* color: #010606; */
+    color: #8F8F8F;
     font-size: 1.2rem;
     padding: 0;
     text-align: left;
@@ -144,8 +153,11 @@ export const ProfilesExpandBtn = styled.a`
     text-decoration: none;
     text-align: center;
     font-weight: 900;
-    background-color: #384156;
-    color: #fff;
+    /* background-color: #384156; */
+    background-color: #E5E6E6;
+    /* color: #fff; */
+    /* color: #010606; */
+    color: #8F8F8F;
     padding-top: 8px;
     padding-bottom: 8px;
     border-radius: 5px;
@@ -154,7 +166,8 @@ export const ProfilesExpandBtn = styled.a`
 
     &:hover {
         transition: 0.2s;
-        background-color: #404B63;
+        /* background-color: #404B63; */
+        background-color: #FAFAFA;
         cursor: pointer;
     }
 `
