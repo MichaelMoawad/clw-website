@@ -1,6 +1,6 @@
-import ImageOne from "../../images/CLW-Logo.png"
-import ImageTwo from "../../images/svg-2.svg"
-import ImageThree from "../../images/svg-3.svg"
+import ImageOne from "../../images/about.png"
+import ImageTwo from "../../images/mentorship.svg"
+import ImageThree from "../../images/account.svg"
 import ImageFour from "../../images/svg-4.svg"
 
 
@@ -15,7 +15,8 @@ export const homeObjOne = {
     description2: 'We aim to create a community to help students in commencing their path in serving the law. Alongside this, we hope to provide resources to all our members and aid them in developing their network through building and interacting with a diverse group of peers located all over the world.',
     buttonLabel: 'Get started',
     imgStart: false,
-    alt: 'Car',
+    img: ImageOne,
+    alt: 'about',
     dark: true,
     primary: true,
     darkText: false
@@ -32,7 +33,8 @@ export const homeObjTwo = {
     description2: 'To get involved with our programme or for more information press here, and we will connect you!',
     buttonLabel: 'Learn More',
     imgStart: true,
-    // img: ImageTwo,
+    // issue with size and responsiveness
+    img: ImageTwo,
     alt: 'Piggybank',
     dark: false,
     primary: false,
@@ -49,7 +51,8 @@ export const homeObjThree = {
     description1: 'Get everything set up and ready in under 10 minutes. All you need to do is add your information and you are ready to go.',
     buttonLabel: 'Start Now',
     imgStart: false,
-    // img: ImageThree,
+    // issue with size and responsiveness
+    img: ImageThree,
     alt: 'Paper',
     dark: false,
     primary: false,

@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const ProfilesContainer = styled.div`
     height: auto;
-    min-height: 1400px;
+    min-height: 1800px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -10,17 +10,17 @@ export const ProfilesContainer = styled.div`
     background: #181C25;
 
     @media screen and (max-width: 1000px) {
-        min-height: 1800px;
+        min-height: 2200px;
     }
 
     @media screen and (max-width: 768px) {
-        height: 1400px;
-        min-height: 3000px;
+        /* height: 2200px; */
+        min-height: 4200px;
     }
 
     @media screen and (max-width: 480px) {
-        height: 1300px;
-        min-height: 3000px;
+        height: 2200px;
+        min-height: 4200px;
     }
 `
 
@@ -33,7 +33,6 @@ export const ProfilesH1 = styled.h1`
     @media screen and (max-width: 480px) {
         font-size: 2rem;
         margin-top: 50px;
-
     }
 `
 
@@ -42,7 +41,7 @@ export const ProfilesWrapper = styled.div`
     margin: 20px auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 420px 420px;
+    grid-template-rows: 420px 420px 420px;
     align-items: center;
     justify-content: center;
     grid-gap: 16px;
@@ -50,12 +49,12 @@ export const ProfilesWrapper = styled.div`
 
     @media screen and (max-width: 1000px) {
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 420px 420px 420px;
+        grid-template-rows: 420px 420px 420px 420px 420px;
     }
 
     @media screen and (max-width: 768px) {
         grid-template-columns: 1fr;
-        grid-template-rows: 420px 420px 420px 420px 420px 420px;
+        grid-template-rows: 420px 420px 420px 420px 420px 420px 420px 420px 420px;
         padding: 0 20px;
     }
 `
@@ -99,7 +98,6 @@ export const ProfilesFaceTwo = styled.div`
 export const ProfilesP = styled.p`
     margin: 0;
     padding: 0;
-
 `
 
 export const ProfilesContentOne = styled.div`
@@ -173,7 +171,7 @@ export const SocialIconLink = styled.a`
     align-items: center;
     position: absolute;
     right: 12px;
-    color: #404B63;
+    color: #EAECEC;
     font-size: 24px;
     padding: 0 3px 0;
 `

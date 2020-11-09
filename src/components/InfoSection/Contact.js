@@ -17,7 +17,7 @@ const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headline, darkT
                             <Subtitle darkText={darkText}>{description1}</Subtitle>
                             <Subtitle darkText={darkText}>{description2}</Subtitle>
                             <Subtitle darkText={darkText}>{description3}</Subtitle>
-                            {/* <BtnWrap>
+                            <BtnWrap>
                                 <Button to="home"
                                 smooth={true}
                                 duration={500}
@@ -28,12 +28,13 @@ const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headline, darkT
                                 dark={dark ? 1: 0}
                                 dark2={dark2 ? 1 : 0}
                                 >{buttonLabel}</Button>
-                            </BtnWrap> */}
+                            </BtnWrap>
                         </TextWrapper>
                       </Column1>
                       <Column2>
                         <ImgWrap>
-                            <Img src={img} alt={alt} style={{width: "600px", height: "500px"}}/>
+                            {/* <Img src={img} alt={alt} style={{width: "600px", height: "500px"}}/> */}
+                            <Img src={img} alt={alt} style={{width: "80%", marginLeft: "10%", marginRight: "10%"}}/>
                         </ImgWrap>
                       </Column2>
                   </InfoRow>

@@ -51,20 +51,20 @@ const Footer = () => {
                         {/* <SocialLogo to="/">
                             dolla
                         </SocialLogo> */}
-                        <WebsiteRights>dolla © {new Date().getFullYear()} All rights reserved</WebsiteRights>
+                        <WebsiteRights>Coptic Lawyers Worldwide © {new Date().getFullYear()} All rights reserved</WebsiteRights>
                         <SocialIcons>
-                            <SocialIconLink href="//www.google.com" target="_blank" aria-label="Facebook">
+                            <SocialIconLink href="https://www.facebook.com/CopticLawyersWorldwide" target="_blank" aria-label="Facebook">
                                 <FaFacebook/>
                             </SocialIconLink>
-                            <SocialIconLink href="//www.google.com" target="_blank" aria-label="Instagram">
+                            <SocialIconLink href="https://www.instagram.com/copticlawyersworldwide/" target="_blank" aria-label="Instagram">
                                 <FaInstagram/>
                             </SocialIconLink>
                             <SocialIconLink href="//www.google.com" target="_blank" aria-label="YouTube">
                                 <FaYoutube/>
                             </SocialIconLink>
-                            <SocialIconLink href="//www.google.com" target="_blank" aria-label="Twitter">
+                            {/* <SocialIconLink href="//www.google.com" target="_blank" aria-label="Twitter">
                                 <FaTwitter/>
-                            </SocialIconLink>
+                            </SocialIconLink> */}
                             <SocialIconLink href="//www.google.com" target="_blank" aria-label="Linkedin">
                                 <FaLinkedin/>
                             </SocialIconLink>
