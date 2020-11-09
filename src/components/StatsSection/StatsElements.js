@@ -11,7 +11,6 @@ export const StatsWrapper = styled.div`
     display: grid;
     grid-template-columns: 300px;
     grid-template-rows: 200px 80px;
-    /* padding: 0 30px 0; */
 `
 
 export const StatsImg = styled.img`
