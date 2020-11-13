@@ -44,7 +44,7 @@ const Navbar = ({ toggle }) => {
                         <NavItem>
                             <NavLinks to="copticchurch"
                             smooth={true} duration={500} spy={true} exact='true' offset={-80}
-                            >Coptic Church</NavLinks>
+                            >Coptic Community</NavLinks>
                         </NavItem>
                         <NavItem>
                             <NavLinks to="mentorship"

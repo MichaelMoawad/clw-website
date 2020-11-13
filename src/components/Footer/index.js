@@ -1,5 +1,7 @@
 import React from 'react'
 import {FaFacebook, FaInstagram, FaYoutube, FaTwitter, FaLinkedin} from 'react-icons/fa'
+import { FiMail } from "react-icons/fi";
+
 import { FooterContainer, FooterWrap, FooterLinksContainer, FooterLinksWrapper, FooterLinkItems, FooterLinkTitle, FooterLink, SocialMedia, SocialMediaWrap, SocialLogo, WebsiteRights, SocialIcons, SocialIconLink} from './FooterElements'
 
 
@@ -8,7 +10,7 @@ const Footer = () => {
     return (
         <FooterContainer>
             <FooterWrap>
-                <FooterLinksContainer>
+                {/* <FooterLinksContainer>
                     <FooterLinksWrapper>
                         <FooterLinkItems>
                             <FooterLinkTitle>About Us</FooterLinkTitle>
@@ -45,7 +47,7 @@ const Footer = () => {
                                 <FooterLink to="/signin">Terms of Service</FooterLink>
                         </FooterLinkItems>
                     </FooterLinksWrapper>
-                </FooterLinksContainer>
+                </FooterLinksContainer> */}
                 <SocialMedia>
                     <SocialMediaWrap>
                         {/* <SocialLogo to="/">
@@ -53,15 +55,18 @@ const Footer = () => {
                         </SocialLogo> */}
                         <WebsiteRights>Coptic Lawyers Worldwide © {new Date().getFullYear()} All rights reserved</WebsiteRights>
                         <SocialIcons>
+                            <SocialIconLink href="//www.google.com" target="_blank" aria-label="Linkedin">
+                                <FiMail/>
+                            </SocialIconLink>
                             <SocialIconLink href="https://www.facebook.com/CopticLawyersWorldwide" target="_blank" aria-label="Facebook">
                                 <FaFacebook/>
                             </SocialIconLink>
                             <SocialIconLink href="https://www.instagram.com/copticlawyersworldwide/" target="_blank" aria-label="Instagram">
                                 <FaInstagram/>
                             </SocialIconLink>
-                            <SocialIconLink href="//www.google.com" target="_blank" aria-label="YouTube">
+                            {/* <SocialIconLink href="//www.google.com" target="_blank" aria-label="YouTube">
                                 <FaYoutube/>
-                            </SocialIconLink>
+                            </SocialIconLink> */}
                             {/* <SocialIconLink href="//www.google.com" target="_blank" aria-label="Twitter">
                                 <FaTwitter/>
                             </SocialIconLink> */}

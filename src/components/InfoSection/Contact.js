@@ -2,7 +2,10 @@ import React from 'react'
 import {Button} from '../ButtonElements'
 
 import {InfoContainer, InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, BtnWrap, ImgWrap, Img} from './InfoElements'
+import { FooterContainer, FooterWrap, FooterLinksContainer, FooterLinksWrapper, FooterLinkItems, FooterLinkTitle, FooterLink, SocialMedia, SocialMediaWrap, SocialLogo, WebsiteRights, SocialIcons, SocialIconLink} from '../Footer/FooterElements'
 
+import {FaFacebook, FaInstagram, FaYoutube, FaTwitter, FaLinkedin} from 'react-icons/fa'
+import { FiMail } from "react-icons/fi";
 
 const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headline, darkText, description1, description2, description3, buttonLabel, img, alt, primary, dark, dark2}) => {
     return (
@@ -17,7 +20,21 @@ const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headline, darkT
                             <Subtitle darkText={darkText}>{description1}</Subtitle>
                             <Subtitle darkText={darkText}>{description2}</Subtitle>
                             <Subtitle darkText={darkText}>{description3}</Subtitle>
-                            <BtnWrap>
+                            <SocialIcons style={{paddingTop: "20px"}}>
+                                <SocialIconLink href="//www.google.com" target="_blank" aria-label="Linkedin">
+                                    <FiMail/>
+                                </SocialIconLink>
+                                <SocialIconLink href="https://www.facebook.com/CopticLawyersWorldwide" target="_blank" aria-label="Facebook">
+                                    <FaFacebook/>
+                                </SocialIconLink>
+                                <SocialIconLink href="https://www.instagram.com/copticlawyersworldwide/" target="_blank" aria-label="Instagram">
+                                    <FaInstagram/>
+                                </SocialIconLink>
+                                <SocialIconLink href="//www.google.com" target="_blank" aria-label="Linkedin">
+                                <FaLinkedin/>
+                            </SocialIconLink>
+                            </SocialIcons>
+                            {/* <BtnWrap>
                                 <Button to="home"
                                 smooth={true}
                                 duration={500}
@@ -28,7 +45,7 @@ const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headline, darkT
                                 dark={dark ? 1: 0}
                                 dark2={dark2 ? 1 : 0}
                                 >{buttonLabel}</Button>
-                            </BtnWrap>
+                            </BtnWrap> */}
                         </TextWrapper>
                       </Column1>
                       <Column2>

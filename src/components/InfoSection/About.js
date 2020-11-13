@@ -2,6 +2,8 @@ import React from 'react'
 import StatsImg1 from '../../images/social-media.svg'
 import StatsImg2 from '../../images/world.svg'
 import StatsImg3 from '../../images/agreement.svg'
+import markPhoto from '../../images/mark-circle-cropped.png'
+import samPhoto from '../../images/sam-circle-cropped.png'
 
 import {InfoContainer, InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, ImgWrap, Img, StatsContainer, StatsWrapper, StatsImg, StatsSubtitle} from './InfoElements'
 
@@ -19,6 +21,10 @@ const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headline, darkT
                             <Subtitle darkText={darkText}>{description1}</Subtitle>
                             <Subtitle darkText={darkText}>{description2}</Subtitle>
                             <Subtitle darkText={darkText}>{description3}</Subtitle>
+                            {/* <ImgWrap>
+                                <Img src={markPhoto} alt={alt} style={{width: "180px", margin: "20px", marginLeft: "0px"}}/>
+                                <Img src={samPhoto} alt={alt} style={{width: "180px", margin: "20px"}}/>
+                            </ImgWrap> */}
                         </TextWrapper>
                       </Column1>
                       <Column2>

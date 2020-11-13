@@ -138,7 +138,8 @@ export const ProfilesHeading = styled.div`
 export const ProfilesH2 = styled.h2`
     /* color: #fff; */
     /* color: #010606; */
-    color: #8F8F8F;
+    /* color: #8F8F8F; */
+    color: #3D3D3D;
     font-size: 1.2rem;
     padding: 0;
     text-align: left;
@@ -157,7 +158,8 @@ export const ProfilesExpandBtn = styled.a`
     background-color: #E5E6E6;
     /* color: #fff; */
     /* color: #010606; */
-    color: #8F8F8F;
+    /* color: #8F8F8F; */
+    color: #3D3D3D;
     padding-top: 8px;
     padding-bottom: 8px;
     border-radius: 5px;

@@ -3,6 +3,9 @@ import {Button} from '../ButtonElements'
 // import Icon1 from '../../images/svg-1.svg'
 // import Icon2 from '../../images/svg-2.svg'
 // import Icon3 from '../../images/svg-3.svg'
+import markPhoto from '../../images/mark-circle-cropped.png'
+import samPhoto from '../../images/sam-circle-cropped.png'
+import {InfoContainer, InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, ImgWrap, Img, StatsContainer, StatsWrapper, StatsImg, StatsSubtitle} from '../InfoSection/InfoElements'
 
 import Profile1 from '../../images/profile-1.JPG'
 import Profile2 from '../../images/profile-2.JPG'
@@ -20,6 +23,11 @@ import Card from './Card'
 const Profiles = ( {primary, dark, dark2} ) => {
     return (
         <ProfilesContainer id="profiles">
+            <ProfilesH1>Founders</ProfilesH1>
+            <ImgWrap>
+                <Img src={markPhoto} alt="Mark" style={{width: "200px", margin: "20px"}}/>
+                <Img src={samPhoto} alt="Sam" style={{width: "200px", margin: "20px"}}/>
+            </ImgWrap>
             <ProfilesH1>Our Profiles</ProfilesH1>
             <ProfilesWrapper>
                 <Card 

@@ -83,9 +83,10 @@ export const contactObj = {
     lightBg: false,
     lightText: true,
     lightTextDesc: true,
-    topLine: 'Join our Team',
-    headline: 'Creating an account is extremely easy',
-    description1: 'Get everything set up and ready in under 10 minutes. All you need to do is add your information and you are ready to go.',
+    topLine: 'Contact Us',
+    headline: 'Get in Touch',
+    description1: 'To find out more about Coptic Lawyers Worldwide and our initiatives contact us via email.',
+    description2: 'To keep up to date with Coptic Lawyers Worldwide and our initiatives follow us on our social media.',
     buttonLabel: 'Start Now',
     imgStart: false,
     // issue with size and responsiveness
