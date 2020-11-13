@@ -1,10 +1,13 @@
 import React from 'react'
 import {Button} from '../ButtonElements'
+
+
+import markPhoto from '../../images/mark-circle-cropped.png'
+import samPhoto from '../../images/sam-circle-cropped.png'
+
 // import Icon1 from '../../images/svg-1.svg'
 // import Icon2 from '../../images/svg-2.svg'
 // import Icon3 from '../../images/svg-3.svg'
-import markPhoto from '../../images/mark-circle-cropped.png'
-import samPhoto from '../../images/sam-circle-cropped.png'
 import {InfoContainer, InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, ImgWrap, Img, StatsContainer, StatsWrapper, StatsImg, StatsSubtitle} from '../InfoSection/InfoElements'
 
 import Profile1 from '../../images/profile-1.JPG'
@@ -17,17 +20,27 @@ import Profile7 from '../../images/profile-7.JPG'
 import Profile8 from '../../images/profile-8.JPG'
 import Profile9 from '../../images/profile-9.JPG'
 
-import { ProfilesContainer, ProfilesH1, ProfilesWrapper, BtnWrap } from './ProfilesElements'
+import { ProfilesContainer, ProfilesH1, ProfilesWrapper, TeamWrapper } from './ProfilesElements'
 import Card from './Card'
+import TeamCard from './TeamCard'
 
 const Profiles = ( {primary, dark, dark2} ) => {
     return (
         <ProfilesContainer id="profiles">
             <ProfilesH1>Founders</ProfilesH1>
-            <ImgWrap>
-                <Img src={markPhoto} alt="Mark" style={{width: "200px", margin: "20px"}}/>
-                <Img src={samPhoto} alt="Sam" style={{width: "200px", margin: "20px"}}/>
-            </ImgWrap>
+            <TeamWrapper>
+                <TeamCard 
+                    TeamPic={markPhoto} 
+                    TeamName="Mark Dimitri" 
+                    TeamLinkedin="https://www.linkedin.com/in/mark-dimitri-7331b6152/"
+                    TeamText="Final Year Law Student (with a year abroad) at the University of Leicester"/>
+                <TeamCard 
+                    TeamPic={samPhoto} 
+                    TeamName="Samuel Dimitri" 
+                    TeamLinkedin="https://www.linkedin.com/in/samuel-dimitri/"
+                    TeamText="Finance Litigation Paralegal at Addleshaw Goddard"
+                />
+            </TeamWrapper>
             <ProfilesH1>Our Profiles</ProfilesH1>
             <ProfilesWrapper>
                 <Card 
@@ -68,7 +81,7 @@ const Profiles = ( {primary, dark, dark2} ) => {
                     ProfileLinkedin="https://www.linkedin.com/in/caroline-keryakas/"
                     ProfilePic={Profile6}
                     ProfileName="Caroline Keryakas"
-                    ProfileText="Bishoy is a real estate and finance lawyer licensed in Florida and New York who focuses his practice in the areas of complex commercial and residential real estate transactions, including developer, lender, landlord and tenant representation."
+                    ProfileText="Caroline completed her Bachelor of Civil Law at the University of Sherbrooke. She is a member of the Quebec Bar and she recently completed her Juris Doctor degree at the University of Montreal. She is also a Christian Legal Fellowship (CLF) member."
                 />     
                 <Card 
                     ProfileLinkedin="https://www.linkedin.com/in/sandysamyaziz/"
@@ -80,13 +93,13 @@ const Profiles = ( {primary, dark, dark2} ) => {
                     ProfileLinkedin="https://www.linkedin.com/in/talyesq/"
                     ProfilePic={Profile8}
                     ProfileName="Taly Goody"
-                    ProfileText="Marina Iskander is a case handler and Head of Division at the Egyptian Competition Authority."
+                    ProfileText="Taly Goody is the founder and attorney of @goodylawgroup , LLP. She was raised by Iranian immigrant parents in Los Angeles, California and is fluent in Farsi. She is licensed to practice law in the state of California."
                 />
                 <Card 
                     ProfileLinkedin="https://www.linkedin.com/in/dmostokly12345/"
                     ProfilePic={Profile9}
                     ProfileName="David Mostokly"
-                    ProfileText="Bishoy is a real estate and finance lawyer licensed in Florida and New York who focuses his practice in the areas of complex commercial and residential real estate transactions, including developer, lender, landlord and tenant representation."
+                    ProfileText="David Mostokly was admitted to the legal profession as an Australian Lawyer and an Officer of the Supreme Court of Victoria in 2017, after having completed his Bachelor of Laws (Honours) (LL.B) at Deakin University amongst the top 20% of his graduating cohort."
                 />     
             </ProfilesWrapper>
             {/* <BtnWrap>

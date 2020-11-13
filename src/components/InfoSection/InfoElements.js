@@ -28,6 +28,25 @@ export const InfoWrapper = styled.div`
     }
 `
 
+export const InfoWrapperCopticChurch = styled.div`
+    display: grid;
+    z-index: 1;
+    height: 1045px;
+    width: 100%;
+    max-width: 1100px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0 24px;
+    justify-content: center;
+
+    @media screen and (max-width: 768px){
+        height: 1480px;
+    }
+    @media screen and (max-width: 420px){
+        height: 1405px;
+    }
+`
+
 export const InfoRow = styled.div`
     padding: 80px 0 0;
     display: grid;
