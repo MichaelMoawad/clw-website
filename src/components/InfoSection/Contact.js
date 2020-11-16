@@ -21,7 +21,7 @@ const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headline, darkT
                             <Subtitle darkText={darkText}>{description2}</Subtitle>
                             <Subtitle darkText={darkText}>{description3}</Subtitle>
                             <SocialIcons style={{paddingTop: "20px"}}>
-                                <SocialIconLink href="//www.google.com" target="_blank" aria-label="Linkedin">
+                                <SocialIconLink href="mailto:copticlawyersworldwide@gmail.com" target="_blank" aria-label="Linkedin">
                                     <FiMail/>
                                 </SocialIconLink>
                                 <SocialIconLink href="https://www.facebook.com/CopticLawyersWorldwide" target="_blank" aria-label="Facebook">
@@ -34,23 +34,10 @@ const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headline, darkT
                                 <FaLinkedin/>
                             </SocialIconLink>
                             </SocialIcons>
-                            {/* <BtnWrap>
-                                <Button to="home"
-                                smooth={true}
-                                duration={500}
-                                spy={true}
-                                exact="true"
-                                offset={-80}
-                                primary={primary ? 1 : 0}
-                                dark={dark ? 1: 0}
-                                dark2={dark2 ? 1 : 0}
-                                >{buttonLabel}</Button>
-                            </BtnWrap> */}
                         </TextWrapper>
                       </Column1>
                       <Column2>
                         <ImgWrap>
-                            {/* <Img src={img} alt={alt} style={{width: "600px", height: "500px"}}/> */}
                             <Img src={img} alt={alt} style={{width: "80%", marginLeft: "10%", marginRight: "10%"}}/>
                         </ImgWrap>
                       </Column2>

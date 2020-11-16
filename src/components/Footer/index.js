@@ -55,7 +55,7 @@ const Footer = () => {
                         </SocialLogo> */}
                         <WebsiteRights>Coptic Lawyers Worldwide © {new Date().getFullYear()} All rights reserved</WebsiteRights>
                         <SocialIcons>
-                            <SocialIconLink href="//www.google.com" target="_blank" aria-label="Linkedin">
+                            <SocialIconLink href="mailto:copticlawyersworldwide@gmail.com" target="_blank" aria-label="Linkedin">
                                 <FiMail/>
                             </SocialIconLink>
                             <SocialIconLink href="https://www.facebook.com/CopticLawyersWorldwide" target="_blank" aria-label="Facebook">
