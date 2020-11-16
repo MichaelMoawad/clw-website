@@ -27,20 +27,7 @@ import TeamCard from './TeamCard'
 const Profiles = ( {primary, dark, dark2} ) => {
     return (
         <ProfilesContainer id="profiles">
-            <ProfilesH1>Founders</ProfilesH1>
-            <TeamWrapper>
-                <TeamCard 
-                    TeamPic={markPhoto} 
-                    TeamName="Mark Dimitri" 
-                    TeamLinkedin="https://www.linkedin.com/in/mark-dimitri-7331b6152/"
-                    TeamText="Final Year Law Student (with a year abroad) at the University of Leicester"/>
-                <TeamCard 
-                    TeamPic={samPhoto} 
-                    TeamName="Samuel Dimitri" 
-                    TeamLinkedin="https://www.linkedin.com/in/samuel-dimitri/"
-                    TeamText="Finance Litigation Paralegal at Addleshaw Goddard"
-                />
-            </TeamWrapper>
+        
             <ProfilesH1>Our Profiles</ProfilesH1>
             <ProfilesWrapper>
                 <Card 
@@ -102,6 +89,20 @@ const Profiles = ( {primary, dark, dark2} ) => {
                     ProfileText="David Mostokly was admitted to the legal profession as an Australian Lawyer and an Officer of the Supreme Court of Victoria in 2017, after having completed his Bachelor of Laws (Honours) (LL.B) at Deakin University amongst the top 20% of his graduating cohort."
                 />     
             </ProfilesWrapper>
+            <ProfilesH1>Founders</ProfilesH1>
+            <TeamWrapper>
+                <TeamCard 
+                    TeamPic={markPhoto} 
+                    TeamName="Mark Dimitri" 
+                    TeamLinkedin="https://www.linkedin.com/in/mark-dimitri-7331b6152/"
+                    TeamText="Final Year Law Student (with a year abroad) at the University of Leicester"/>
+                <TeamCard 
+                    TeamPic={samPhoto} 
+                    TeamName="Samuel Dimitri" 
+                    TeamLinkedin="https://www.linkedin.com/in/samuel-dimitri/"
+                    TeamText="Finance Litigation Paralegal at Addleshaw Goddard"
+                />
+            </TeamWrapper>
             {/* <BtnWrap>
                 <Button to="home"
                     smooth={true}
