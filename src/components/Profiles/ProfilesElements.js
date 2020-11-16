@@ -42,9 +42,11 @@ export const TeamsHeading = styled.div`
     justify-content: center;
     align-items: center;
     display: grid;
-    grid: 25px / 250px 50px;
+    grid: 25px / 220px 50px;
     grid-gap: 16px;
     padding: 30px;
+    padding-left: 60px;
+    padding-right: 10px
 `
 
 // export const TeamIcon = styled.img`
@@ -252,8 +254,9 @@ export const TeamH2 = styled.h2`
     /* color: #8F8F8F; */
     color: #3D3D3D;
     font-size: 1.4rem;
+    font-weight: 600;
     padding: 0;
-    text-align: left;
+    text-align: center;
     padding: 0 18px 0;
 `
 

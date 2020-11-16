@@ -1,5 +1,5 @@
 import aboutImage from "../../images/about.png"
-import churchImage from "../../images/cross.png"
+import churchImage from "../../images/coptic-cross.png"
 import mentorshipImage from "../../images/mentorship.svg"
 import contactImage from "../../images/account.svg"
 import ImageFour from "../../images/svg-4.svg"
@@ -29,8 +29,8 @@ export const churchObj = {
     lightText: false,
     lightTextDesc: false,
     topLine: 'Coptic Orthodox Christianity',
-    headline: 'About the Church',
-    description1: 'What does Coptic mean? It comes from the Greek word aegytpos, which was used to describe the people of Egypt. For 1500 years it has been the word used to describe the Christian community in Egypt. Now, it represents the ancient Christian Church of Egypt which has preserved the same ancient faith, and is now found in almost every country around the world.',
+    headline: 'What does Coptic mean?',
+    description1: 'It comes from the Greek word "aegytpos", which was used to describe the people of Egypt. For 1500 years it has been the word used to describe the Christian community in Egypt. Now, it represents the ancient Christian Church of Egypt which has preserved the same ancient faith, and is now found in almost every country around the world.',
     description2: 'It is not a closed community. Many Western people have chosen to become Orthodox Christians among its numbers. But its spiritual tradition, history, worship and prayers have all been formed in 2000 years of Christian experience in Egypt, often at great cost and in the face of violence.',
     description3: 'To be Coptic is to be connected to this community in one way or another, and to be part of its continuing life and service in the modern world.',
     buttonLabel: 'Learn More',

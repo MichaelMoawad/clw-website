@@ -21,7 +21,7 @@ const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headline, darkT
                       </Column1>
                       <Column2>
                         <ImgWrap>
-                            <Img src={img} alt={alt} style={{width: "80%", marginLeft: "10%", marginRight: "10%"}}/>
+                            <Img src={img} alt={alt} style={{width: "90%", marginLeft: "5%", marginRight: "5%"}}/>
                             {/* <Img src={img} alt={alt} style={{width: "600px", height: "500px"}}/> */}
                         </ImgWrap>
                       </Column2>
