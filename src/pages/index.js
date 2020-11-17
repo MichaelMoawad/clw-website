@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import Footer from '../components/Footer'
 import HeroSection from '../components/HeroSection'
-import { aboutObj, churchObj, mentorshipObj, contactObj, profilesObj } from '../components/InfoSection/Data'
+import { aboutObj, churchObj, mentorshipObj, contactObj, teamObj, profilesObj } from '../components/InfoSection/Data'
 import About from '../components/InfoSection/About'
 import CopticChurch from '../components/InfoSection/CopticChurch'
 import Mentorship from '../components/InfoSection/Mentorship'
@@ -26,8 +26,8 @@ const Home = () => {
             <About {...aboutObj}/>
             <CopticChurch {...churchObj}/>
             <Mentorship {...mentorshipObj}/>
-            <Team />
-            <Profiles {...profilesObj}/>
+            <Team {...profilesObj}/>
+            <Profiles />
             <Contact {...contactObj}/>
             <Footer />
         </>

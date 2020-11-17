@@ -7,7 +7,7 @@ import samPhoto from '../../images/sam-circle-cropped.png'
 
 const Team = () => {
     return ( 
-        <TeamContainer>
+        <TeamContainer id="profiles">
             <TeamH1>Founders</TeamH1>
             <TeamWrapper>
                 <TeamCard 

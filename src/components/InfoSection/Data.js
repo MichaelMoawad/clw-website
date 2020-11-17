@@ -60,6 +60,10 @@ export const mentorshipObj = {
     darkText: false
 }
 
+export const teamObj = {
+    id: 'profile'
+}
+
 export const profilesObj = {
     id: 'profile',
     lightBg: false,

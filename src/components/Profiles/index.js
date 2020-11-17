@@ -26,7 +26,7 @@ import Card from './Card'
 
 const Profiles = ( {primary, dark, dark2} ) => {
     return (
-        <ProfilesContainer id="profiles">
+        <ProfilesContainer >
         
             <ProfilesH1>Our Profiles</ProfilesH1>
             <ProfilesWrapper>
