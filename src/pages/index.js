@@ -8,6 +8,7 @@ import Mentorship from '../components/InfoSection/Mentorship'
 import Contact from '../components/InfoSection/Contact'
 import Navbar from '../components/Navbar'
 import Profiles from '../components/Profiles'
+import Team from '../components/Team'
 import Sidebar from '../components/Sidebar'
 
 const Home = () => {
@@ -25,6 +26,7 @@ const Home = () => {
             <About {...aboutObj}/>
             <CopticChurch {...churchObj}/>
             <Mentorship {...mentorshipObj}/>
+            <Team />
             <Profiles {...profilesObj}/>
             <Contact {...contactObj}/>
             <Footer />

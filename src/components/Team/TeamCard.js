@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { TeamContent, TeamIcon, TeamH2, TeamsHeading, ProfilesContentOne, ProfilesIcon, ProfilesHeading, SocialIcons, TeamSocialIconLink, TeamP } from './ProfilesElements'
+import { TeamContent, TeamIcon, TeamH2, TeamsHeading, SocialIcons, TeamSocialIconLink, TeamP } from './TeamElements'
 import { FaLinkedin } from 'react-icons/fa'
 
 const TeamCard = ( {TeamPic, TeamName, TeamText, TeamLinkedin} ) => {

@@ -22,7 +22,7 @@ import Profile9 from '../../images/profile-9.JPG'
 
 import { ProfilesContainer, ProfilesH1, ProfilesWrapper, TeamWrapper } from './ProfilesElements'
 import Card from './Card'
-import TeamCard from './TeamCard'
+// import TeamCard from './TeamCard'
 
 const Profiles = ( {primary, dark, dark2} ) => {
     return (
@@ -89,8 +89,8 @@ const Profiles = ( {primary, dark, dark2} ) => {
                     ProfileText="David Mostokly was admitted to the legal profession as an Australian Lawyer and an Officer of the Supreme Court of Victoria in 2017, after having completed his Bachelor of Laws (Honours) (LL.B) at Deakin University amongst the top 20% of his graduating cohort."
                 />     
             </ProfilesWrapper>
-            <ProfilesH1>Founders</ProfilesH1>
-            <TeamWrapper>
+            {/* <ProfilesH1>Founders</ProfilesH1> */}
+            {/* <TeamWrapper>
                 <TeamCard 
                     TeamPic={markPhoto} 
                     TeamName="Mark Dimitri" 
@@ -102,7 +102,7 @@ const Profiles = ( {primary, dark, dark2} ) => {
                     TeamLinkedin="https://www.linkedin.com/in/samuel-dimitri/"
                     TeamText="Finance Litigation Paralegal at Addleshaw Goddard"
                 />
-            </TeamWrapper>
+            </TeamWrapper> */}
             {/* <BtnWrap>
                 <Button to="home"
                     smooth={true}
