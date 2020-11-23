@@ -71,10 +71,10 @@ const Profiles = ( {primary, dark, dark2} ) => {
                     ProfileText="Caroline completed her Bachelor of Civil Law at the University of Sherbrooke. She is a member of the Quebec Bar and she recently completed her Juris Doctor degree at the University of Montreal. She is also a Christian Legal Fellowship (CLF) member."
                 />     
                 <Card 
-                    ProfileLinkedin="https://www.linkedin.com/in/sandysamyaziz/"
+                    ProfileLinkedin="https://www.linkedin.com/in/sherif-saad-7087aa177/"
                     ProfilePic={Profile7}
-                    ProfileName="Jacob Lastname"
-                    ProfileText="Sandy Aziz is a Texas-qualified lawyer and also a member of the Brussels bar (B-list). She works as a knowledge development lawyer and associate for an international law firm in London."
+                    ProfileName="Sherif Saad"
+                    ProfileText="Sherif Saad is a trainee solicitor at a US international law firm in London. Sherif completed his LLB law degree and Legal Practice Course (LPC) at the Univeristy of Sheffield."
                 />
                 <Card 
                     ProfileLinkedin="https://www.linkedin.com/in/talyesq/"
