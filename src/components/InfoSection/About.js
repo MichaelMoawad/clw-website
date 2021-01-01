@@ -5,7 +5,7 @@ import StatsImg3 from '../../images/agreement.svg'
 import markPhoto from '../../images/mark-circle-cropped.png'
 import samPhoto from '../../images/sam-circle-cropped.png'
 
-import {InfoContainer, InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, ImgWrap, Img, StatsContainer, StatsWrapper, StatsImg, StatsSubtitle} from './InfoElements'
+import {InfoContainer, InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, ImgWrap, Img, StatsContainer, StatsWrapper, StatsImg, StatsSubtitle, AboutVideoContainer, AboutVideo} from './InfoElements'
 
 
 const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headline, darkText, description1, description2, description3, img, alt}) => {
@@ -48,6 +48,14 @@ const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headline, darkT
                   </StatsContainer> */}
                       </Column2>
                   </InfoRow>
+              </InfoWrapper>
+              <InfoWrapper>
+                    {/* <Heading lightText={lightText}>{headline}</Heading> */}
+                <AboutVideoContainer>
+                    <AboutVideo src="https://www.youtube.com/embed/0egOX64a73c" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                    </AboutVideo>
+                {/* <iframe width="1160" height="615" src="https://www.youtube.com/embed/0egOX64a73c" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> */}
+                </AboutVideoContainer>
               </InfoWrapper>
             </InfoContainer>  
         </>

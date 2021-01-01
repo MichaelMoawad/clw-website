@@ -158,3 +158,34 @@ export const StatsSubtitle = styled.p`
     color: ${({darkText}) => (darkText ? '#010606' : '#fff')};
 `
 
+export const AboutVideoContainer = styled.div`
+    /* height: 100%;
+    width: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+`
+
+export const AboutVideo = styled.iframe`
+    height: 732px;
+    width: 1300px;
+    border: none;
+    
+    @media screen and (max-width: 1190px){
+        height: 400px;
+        width: 800px;
+    }
+    @media screen and (max-width: 900px){
+        height: 300px;
+        width: 600px;
+    }
+    @media screen and (max-width: 660px){
+        height: 200px;
+        width: 400px;
+    }
+    @media screen and (max-width: 460px){
+        height: 300px;
+        width: 300px;
+    }
+`
+
