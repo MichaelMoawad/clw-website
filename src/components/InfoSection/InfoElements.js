@@ -12,7 +12,7 @@ export const InfoContainer = styled.div`
 export const InfoWrapper = styled.div`
     display: grid;
     z-index: 1;
-    height: 1045px;
+    /* height: 1045px; */
     width: 100%;
     max-width: 1100px;
     margin-right: auto;
@@ -21,17 +21,19 @@ export const InfoWrapper = styled.div`
     justify-content: center;
 
     @media screen and (max-width: 768px){
-        height: 1280px;
+        /* height: 1280px; */
+        /* height: 580px; */
     }
     @media screen and (max-width: 420px){
-        height: 1145px;
+        /* height: 1145px; */
+        /* height: 545px; */
     }
 `
 
 export const InfoWrapperCopticChurch = styled.div`
     display: grid;
     z-index: 1;
-    height: 1045px;
+    /* height: 1045px; */
     width: 100%;
     max-width: 1100px;
     margin-right: auto;
@@ -48,7 +50,8 @@ export const InfoWrapperCopticChurch = styled.div`
 `
 
 export const InfoRow = styled.div`
-    padding: 80px 0 0;
+    /* padding: 80px 0 0; */
+    padding: 120px 0 120px 0;
     display: grid;
     grid-auto-columns: minmax(auto, 1fr);
     align-items: center;
@@ -167,9 +170,12 @@ export const AboutVideoContainer = styled.div`
 `
 
 export const AboutVideo = styled.iframe`
-    height: 732px;
-    width: 1300px;
+    height: 532px;
+    width: 1000px;
+    /* height: 400px;
+    width: 800px; */
     border: none;
+    padding-bottom: 60px;
     
     @media screen and (max-width: 1190px){
         height: 400px;
@@ -182,10 +188,12 @@ export const AboutVideo = styled.iframe`
     @media screen and (max-width: 660px){
         height: 200px;
         width: 400px;
+        padding-bottom: 0px;
     }
     @media screen and (max-width: 460px){
         height: 300px;
         width: 300px;
+        padding-bottom: 0px;
     }
 `
 
