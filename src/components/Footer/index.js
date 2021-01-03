@@ -70,7 +70,7 @@ const Footer = () => {
                             {/* <SocialIconLink href="//www.google.com" target="_blank" aria-label="Twitter">
                                 <FaTwitter/>
                             </SocialIconLink> */}
-                            <SocialIconLink href="//www.google.com" target="_blank" aria-label="Linkedin">
+                            <SocialIconLink href="https://www.linkedin.com/company/copticlawyersworldwide/" target="_blank" aria-label="Linkedin">
                                 <FaLinkedin/>
                             </SocialIconLink>
                         </SocialIcons>

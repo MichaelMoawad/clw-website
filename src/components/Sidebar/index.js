@@ -22,7 +22,7 @@ const Sidebar = ({ isOpen, toggle}) => {
                         Profiles
                     </SidebarLink>
                     <SidebarLink to="contact" onClick={toggle}>
-                        Sign Up
+                        Contact Us
                     </SidebarLink>
                 </SidebarMenu>
                 {/* <SideBtnWrap>

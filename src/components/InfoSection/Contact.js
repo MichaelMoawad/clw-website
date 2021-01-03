@@ -30,7 +30,7 @@ const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headline, darkT
                                 <SocialIconLink href="https://www.instagram.com/copticlawyersworldwide/" target="_blank" aria-label="Instagram">
                                     <FaInstagram/>
                                 </SocialIconLink>
-                                <SocialIconLink href="//www.google.com" target="_blank" aria-label="Linkedin">
+                                <SocialIconLink href="https://www.linkedin.com/company/copticlawyersworldwide/" target="_blank" aria-label="Linkedin">
                                 <FaLinkedin/>
                             </SocialIconLink>
                             </SocialIcons>
